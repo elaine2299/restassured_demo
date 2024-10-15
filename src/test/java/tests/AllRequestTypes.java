@@ -77,7 +77,8 @@ public class AllRequestTypes {
                 .delete("/api/users?page=2").
         then()
                 .statusCode(204);
-        System.out.println("Test Done!");
+        System.out.println("Test Done - Push");
+        System.out.println("Test Done - Pull");
     }
 }
 
