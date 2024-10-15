@@ -79,6 +79,7 @@ public class AllRequestTypes {
                 .statusCode(204);
         System.out.println("Test Done - Push");
         System.out.println("Test Done - Pull");
+        System.out.println("Test Done - New Branch");
     }
 }
 
